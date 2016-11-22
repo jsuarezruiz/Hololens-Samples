@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// File generated on 05/11/2016 13:55:49
+// File generated on 18/11/2016 12:41:49
 namespace HoloPlanets
 {
     using System;
@@ -22,6 +22,9 @@ namespace HoloPlanets
             
             public sealed class Models
             {
+                
+                /// <summary> Path to Content/Assets/Models/cursorPlane.FBX </summary>
+                public const string cursorPlane_FBX = "Content/Assets/Models/cursorPlane.FBX";
                 
                 /// <summary> Path to Content/Assets/Models/Earth.FBX </summary>
                 public const string Earth_FBX = "Content/Assets/Models/Earth.FBX";
@@ -70,6 +73,12 @@ namespace HoloPlanets
             public sealed class Textures
             {
                 
+                /// <summary> Path to Content/Assets/Textures/donut.png </summary>
+                public const string donut_png = "Content/Assets/Textures/donut.png";
+                
+                /// <summary> Path to Content/Assets/Textures/dot.png </summary>
+                public const string dot_png = "Content/Assets/Textures/dot.png";
+                
                 /// <summary> Path to Content/Assets/Textures/Earth_512.png </summary>
                 public const string Earth_512_png = "Content/Assets/Textures/Earth_512.png";
                 
@@ -107,6 +116,12 @@ namespace HoloPlanets
             public sealed class Materials
             {
                 
+                /// <summary> Path to Content/Assets/Materials/donutMat.wmat </summary>
+                public const string donutMat = "Content/Assets/Materials/donutMat.wmat";
+                
+                /// <summary> Path to Content/Assets/Materials/dotMat.wmat </summary>
+                public const string dotMat = "Content/Assets/Materials/dotMat.wmat";
+                
                 /// <summary> Path to Content/Assets/Materials/earthMat.wmat </summary>
                 public const string earthMat = "Content/Assets/Materials/earthMat.wmat";
                 
@@ -128,6 +143,9 @@ namespace HoloPlanets
                 /// <summary> Path to Content/Assets/Materials/orbitMat.wmat </summary>
                 public const string orbitMat = "Content/Assets/Materials/orbitMat.wmat";
                 
+                /// <summary> Path to Content/Assets/Materials/paneMat.wmat </summary>
+                public const string paneMat = "Content/Assets/Materials/paneMat.wmat";
+                
                 /// <summary> Path to Content/Assets/Materials/plutonMat.wmat </summary>
                 public const string plutonMat = "Content/Assets/Materials/plutonMat.wmat";
                 
@@ -142,6 +160,19 @@ namespace HoloPlanets
                 
                 /// <summary> Path to Content/Assets/Materials/venusMat.wmat </summary>
                 public const string venusMat = "Content/Assets/Materials/venusMat.wmat";
+            }
+            
+            public sealed class Prefabs
+            {
+                
+                /// <summary> Path to Content/Assets/Prefabs/AirTap.wpref </summary>
+                public const string AirTap = "Content/Assets/Prefabs/AirTap.wpref";
+                
+                /// <summary> Path to Content/Assets/Prefabs/Ready.wpref </summary>
+                public const string Ready = "Content/Assets/Prefabs/Ready.wpref";
+                
+                /// <summary> Path to Content/Assets/Prefabs/Undetected.wpref </summary>
+                public const string Undetected = "Content/Assets/Prefabs/Undetected.wpref";
             }
         }
         

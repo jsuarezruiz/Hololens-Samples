@@ -11,6 +11,7 @@ using WaveEngine.Framework.Graphics;
 using WaveEngine.Framework.Resources;
 using WaveEngine.Framework.Services;
 using WaveEngine.Hololens.Interaction;
+using WaveEngine.Hololens.SpatialMapping;
 using WaveEngine.Hololens.Speech;
 #endregion
 
@@ -22,6 +23,7 @@ namespace HoloPlanets
         {
             this.Load(WaveContent.Scenes.MyScene);
 
+            WaveServices.RegisterService(new SpatialMappingService() { TrianglesPerCubicMeter = 500, ObtainNormals = false });
             WaveServices.RegisterService(new SpatialInputService());
             WaveServices.RegisterService(new KeywordRecognizerService());
         }

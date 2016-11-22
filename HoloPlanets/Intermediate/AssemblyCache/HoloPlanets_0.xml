@@ -14,6 +14,17 @@
             Called when [deactivate].
             </summary>
         </member>
+        <member name="M:HoloPlanets.CollisionHelper.CalculateCollision(WaveEngine.Common.Math.Ray@,WaveEngine.Framework.Physics3D.SphereCollider3D@,HoloPlanets.CollisionHelper.RayCastResult@)">
+            <summary>
+            Calculate collision
+            </summary>
+            <param name="ray"></param>
+            <param name="sphereCollider"></param>
+            <param name="result"></param>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Models.cursorPlane_FBX">
+            <summary> Path to Content/Assets/Models/cursorPlane.FBX </summary>
+        </member>
         <member name="F:HoloPlanets.WaveContent.Assets.Models.Earth_FBX">
             <summary> Path to Content/Assets/Models/Earth.FBX </summary>
         </member>
@@ -53,6 +64,12 @@
         <member name="F:HoloPlanets.WaveContent.Assets.Sounds.background_wav">
             <summary> Path to Content/Assets/Sounds/background.wav </summary>
         </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Textures.donut_png">
+            <summary> Path to Content/Assets/Textures/donut.png </summary>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Textures.dot_png">
+            <summary> Path to Content/Assets/Textures/dot.png </summary>
+        </member>
         <member name="F:HoloPlanets.WaveContent.Assets.Textures.Earth_512_png">
             <summary> Path to Content/Assets/Textures/Earth_512.png </summary>
         </member>
@@ -86,6 +103,12 @@
         <member name="F:HoloPlanets.WaveContent.Assets.Textures.Venus_512_png">
             <summary> Path to Content/Assets/Textures/Venus_512.png </summary>
         </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Materials.donutMat">
+            <summary> Path to Content/Assets/Materials/donutMat.wmat </summary>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Materials.dotMat">
+            <summary> Path to Content/Assets/Materials/dotMat.wmat </summary>
+        </member>
         <member name="F:HoloPlanets.WaveContent.Assets.Materials.earthMat">
             <summary> Path to Content/Assets/Materials/earthMat.wmat </summary>
         </member>
@@ -107,6 +130,9 @@
         <member name="F:HoloPlanets.WaveContent.Assets.Materials.orbitMat">
             <summary> Path to Content/Assets/Materials/orbitMat.wmat </summary>
         </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Materials.paneMat">
+            <summary> Path to Content/Assets/Materials/paneMat.wmat </summary>
+        </member>
         <member name="F:HoloPlanets.WaveContent.Assets.Materials.plutonMat">
             <summary> Path to Content/Assets/Materials/plutonMat.wmat </summary>
         </member>
@@ -121,6 +147,15 @@
         </member>
         <member name="F:HoloPlanets.WaveContent.Assets.Materials.venusMat">
             <summary> Path to Content/Assets/Materials/venusMat.wmat </summary>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Prefabs.AirTap">
+            <summary> Path to Content/Assets/Prefabs/AirTap.wpref </summary>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Prefabs.Ready">
+            <summary> Path to Content/Assets/Prefabs/Ready.wpref </summary>
+        </member>
+        <member name="F:HoloPlanets.WaveContent.Assets.Prefabs.Undetected">
+            <summary> Path to Content/Assets/Prefabs/Undetected.wpref </summary>
         </member>
         <member name="F:HoloPlanets.WaveContent.Scenes.MyScene">
             <summary> Path to Content/Scenes/MyScene.wscene </summary>

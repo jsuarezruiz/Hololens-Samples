@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <RemoteDebugMachine>192.168.1.192</RemoteDebugMachine>
+    <RemoteDebugMachine>10.4.1.42</RemoteDebugMachine>
     <AuthenticationMode>Universal</AuthenticationMode>
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
-    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <DeviceId>6C3DD314-EF85-06D2-68DF-7734EA48770B</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
 </Project>

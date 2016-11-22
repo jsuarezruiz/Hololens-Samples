@@ -1,4 +1,5 @@
 ﻿using System.Runtime.Serialization;
+using WaveEngine.Common.Media;
 using WaveEngine.Framework;
 using WaveEngine.Framework.Services;
 using WaveEngine.Framework.Sound;
@@ -14,6 +15,7 @@ namespace HoloPlanets
         private const string TurnMusicOff = "Turn Music Off";
 
         private KeywordRecognizerService _keywordService;
+        private MusicInfo _music;
 
         protected override void DefaultValues()
         {
@@ -24,6 +26,7 @@ namespace HoloPlanets
         {
             base.Initialize();
 
+            _music = new MusicInfo(WaveContent.Assets.Sounds.background_wav);
             _keywordService = WaveServices.GetService<KeywordRecognizerService>();
 
             if (_keywordService != null)
@@ -50,20 +53,13 @@ namespace HoloPlanets
 
         private void TurnMusic(bool state)
         {
-            foreach (Entity soundEntity in this.Owner.FindAllChildrenByTag(MusicTag))
+            if (state)
             {
-                var emitter = soundEntity.FindComponent<SoundEmitter3D>();
-
-                if (state)
-                {
-                    emitter.Play();
-                    emitter.PlayAutomatically = true;
-                }
-                else
-                {
-                    emitter.PlayAutomatically = false;
-                    WaveServices.SoundPlayer.StopAllSounds();
-                }
+                WaveServices.MusicPlayer.Play(_music);
+            }
+            else
+            {
+                WaveServices.MusicPlayer.Stop();
             }
         }
     }

@@ -1,1 +1,1 @@
-C:\Users\jsuarezruiz\Desktop\HoloPlanets\HoloPlanets\Launchers\HoloLens\HoloPlanets.csproj;x86
+C:\Users\javie\Desktop\HoloLens Codemotion\Samples\03. Gaze, 3D panels\HoloPlanets\Launchers\HoloLens\HoloPlanets.csproj;x86
